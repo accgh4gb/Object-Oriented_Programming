@@ -1,0 +1,6 @@
+cmake_minimum_required(VERSION 2.9)
+project(Lib)
+set(SOURCES Power.cpp)
+set(HEADERS Power.h)
+add_library(lib Power.cpp Power.h)
+target_include_directories(lib PUBLIC ./)
