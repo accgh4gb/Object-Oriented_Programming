@@ -2,10 +2,10 @@
 #include <cassert>
 
 
-void Power::set(double value, double power)
+void Power::set(double value, double exp)
 {
 	a = value;
-	b = power;
+	b = exp;
 }
 
 double Power::calculate()
@@ -18,12 +18,7 @@ double Power::calculate()
 	}
 	else
 	{
-		while (b > 0)
-		{
-			result *= a;
-			--b;
-			std::cout << result << ", ";
-		}	
-		return result;
+		std::cout << "The result of raising the number " << a << " to the power of " << b << " is ";
+		return std::pow(a, b);
 	}
 }
