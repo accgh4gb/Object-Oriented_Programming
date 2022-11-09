@@ -1,0 +1,10 @@
+cmake_minimum_required(VERSION 2.8)
+project(Power)
+set(MAIN_PROJECT_SRC_LIST Lesson_01)
+set(SOURCE_LIB Power.cpp)
+set(CMAKE_CXX_FLAGS "-std=c++17 -Wall")
+set(SRC_LIST lib/Power.h lib/Power.cpp lib/Lesson_01.cpp)
+
+add_executable(../Lesson_01 ./lib/Lesson_01.cpp)
+add_subdirectory(./lib)
+target_link_libraries(../Lesson_01 lib)
