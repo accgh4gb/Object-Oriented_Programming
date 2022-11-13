@@ -1,0 +1,1 @@
+/usr/bin/c++ -std=c++17 -rdynamic CMakeFiles/../L_02_T_01.dir/lib/L_02_T_01.cpp.o -o ../L_02_T_01  lib/liblib.a 
