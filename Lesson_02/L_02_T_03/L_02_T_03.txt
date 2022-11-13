@@ -1,0 +1,5 @@
+Для игры в blackjack нам необходимы объекты:
+	1. Игровое поле (Стол). class Game
+	3. Карты. 4 колоды. class CardDeck
+	2. Игроки class Gamer
+	3. Дилер class Dealer
