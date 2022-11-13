@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 2.8)
 project(RGBA)
-set(MAIN_PROJECT_SRC_LIST Lesson_01)
+set(MAIN_PROJECT_SRC_LIST L_01_T_02)
 set(SOURCE_LIB RGBA.cpp)
 set(CMAKE_CXX_FLAGS "-std=c++17 -Wall")
 set(SRC_LIST lib/RGBA.h lib/RGBA.cpp lib/L_01_T_02.cpp)
