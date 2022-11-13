@@ -1,0 +1,6 @@
+cmake_minimum_required(VERSION 2.9)
+project(Lib)
+set(SOURCES Person.cpp Student.cpp)
+set(HEADERS Person.h Student.h)
+add_library(lib Person.cpp Person.h Student.cpp Student.h)
+target_include_directories(lib PUBLIC ./)

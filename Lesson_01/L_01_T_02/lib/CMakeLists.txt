@@ -1,0 +1,6 @@
+cmake_minimum_required(VERSION 2.9)
+project(Lib)
+set(SOURCES RGBA.cpp)
+set(HEADERS RGBA.h)
+add_library(lib RGBA.cpp RGBA.h)
+target_include_directories(lib PUBLIC ./)
