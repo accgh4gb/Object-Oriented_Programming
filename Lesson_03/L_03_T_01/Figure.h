@@ -17,5 +17,6 @@ const double pi = std::acos(-1);
 class Figure
 {
 public:
+	Figure() {}
 	virtual void area() = 0;
 };
