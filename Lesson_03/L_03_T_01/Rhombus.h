@@ -13,4 +13,6 @@ public:
 	{
 		std::cout << "The area of the rhombus is " << a * a * std::sin(angle * pi / 180) << std::endl;
 	}
+
+	virtual ~Rhombus() {}
 };

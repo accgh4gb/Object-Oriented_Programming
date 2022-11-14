@@ -18,4 +18,6 @@ public:
 	{
        std::cout << "The area of the parallelogramm is " << a * h * std::sin(AlphaAngle * pi / 180) << std::endl;
     }
+
+	virtual ~Parallelogram() {}
 };

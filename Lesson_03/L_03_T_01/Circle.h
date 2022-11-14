@@ -11,4 +11,6 @@ public:
     {
 		std::cout << "The area of the circle is " << Radius * Radius * pi << std::endl;
 	}		
+
+	virtual ~Circle() {}
 };

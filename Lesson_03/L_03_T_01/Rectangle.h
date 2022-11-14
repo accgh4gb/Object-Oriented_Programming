@@ -13,4 +13,6 @@ public:
 	{
 		std::cout << "The area of the rectangle is " << a * b << std::endl;
 	}
+
+	virtual ~Rectangle() {}
 };

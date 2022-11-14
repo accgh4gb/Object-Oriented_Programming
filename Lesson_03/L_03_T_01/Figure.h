@@ -19,4 +19,5 @@ class Figure
 public:
 	Figure() {}
 	virtual void area() = 0;
+	virtual ~Figure() {}
 };
