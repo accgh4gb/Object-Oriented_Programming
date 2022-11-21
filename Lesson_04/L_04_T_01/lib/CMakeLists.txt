@@ -1,0 +1,6 @@
+cmake_minimum_required(VERSION 2.9)
+project(Lib)
+set(SOURCES Arrayint.cpp)
+set(HEADERS Arrayint.h)
+add_library(lib Arrayint.cpp Arrayint.h)
+target_include_directories(lib PUBLIC ./)
