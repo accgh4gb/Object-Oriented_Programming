@@ -1,0 +1,6 @@
+cmake_minimum_required(VERSION 2.9)
+project(Lib)
+set(SOURCES Hand.cpp)
+set(HEADERS Hand.h Card.h)
+add_library(lib Hand.cpp Hand.h Card.h)
+target_include_directories(lib PUBLIC ./)
