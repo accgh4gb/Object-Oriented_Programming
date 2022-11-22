@@ -29,4 +29,5 @@ public:
 	Pair(T my_first, T my_second) : t_first(my_first), t_second(my_second) {}
 	T first() const { return t_first; }
 	T second() const { return t_second; }
+	~Pair() {}
 };
