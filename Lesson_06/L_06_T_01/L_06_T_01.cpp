@@ -1,12 +1,6 @@
 #include <iostream>
 #include <limits>
 
-std::ostream& endll(std::ostream& os)
-{
-    os.flush();
-    return os << "\n\n";
-}
-
 int main()
 {
     int intVal;
@@ -24,8 +18,6 @@ int main()
 
     }
 	while (intVal ==-1);
-	std::cout<<"your input: "<<intVal<<endll;
-	std::cout<<"it was a new endl"<<endll;
 
     return 0;
 }
