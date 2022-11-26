@@ -18,6 +18,7 @@ int main()
 
     }
 	while (intVal ==-1);
+	std::cout << "The integer value is: " <<intVal << std::endl;
 
     return 0;
 }
