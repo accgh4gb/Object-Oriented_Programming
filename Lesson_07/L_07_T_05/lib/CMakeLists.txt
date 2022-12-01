@@ -1,0 +1,6 @@
+cmake_minimum_required(VERSION 2.9)
+project(Lib)
+set(SOURCES Game.cpp)
+set(HEADERS Card.h Deck.h Game.h GenericPlayer.h Hand.h House.h Player.h)
+add_library(lib Card.cpp Deck.cpp Game.cpp GenericPlayer.cpp Hand.cpp House.cpp Player.cpp Card.h Deck.h Game.h GenericPlayer.h Hand.h House.h Player.h)
+target_include_directories(lib PUBLIC ./)
