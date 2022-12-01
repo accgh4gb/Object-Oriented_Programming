@@ -1,0 +1,6 @@
+cmake_minimum_required(VERSION 2.9)
+project(Lib)
+set(SOURCES Date.cpp Func.cpp)
+set(HEADERS Date.h Pointer.h)
+add_library(lib Date.cpp Date.h Func.cpp Pointer.h)
+target_include_directories(lib PUBLIC ./)
