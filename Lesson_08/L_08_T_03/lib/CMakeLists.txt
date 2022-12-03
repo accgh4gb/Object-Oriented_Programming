@@ -1,0 +1,6 @@
+cmake_minimum_required(VERSION 2.9)
+project(Lib)
+set(SOURCES Robot.cpp)
+set(HEADERS OffTheField.h Robot.h IllegalCommand.h)
+add_library(lib OffTheField.cpp Robot.cpp IllegalCommand.cpp)
+target_include_directories(lib PUBLIC ./)
